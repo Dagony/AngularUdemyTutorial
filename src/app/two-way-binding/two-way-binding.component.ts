@@ -8,19 +8,5 @@ import {Component, Input, SimpleChanges} from '@angular/core';
 export class TwoWayBindingComponent {
   enableButton: boolean = false;
   @Input() username: string = '';
-
-
-  onChange(newValue) {
-    this.username = newValue;
-    if ( this.username.length > 0) {
-      this.enableButton = true;
-    } else {
-      this.enableButton = false;
-    }
-  }
-
-  onClick() {
-    this.username = '';
-    this.enableButton = false;
-  }
+  
 }
