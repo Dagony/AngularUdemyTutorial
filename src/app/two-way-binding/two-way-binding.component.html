@@ -1,0 +1,12 @@
+<h3>Two Way Binding Component</h3>
+
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="username"
+  (ngModelChange)="onChange($event)">
+<p>{{ username }}</p>
+<button
+  class="btn btn-primary"
+  [disabled]="!enableButton"
+  (click)="onClick()">Click me!</button>
