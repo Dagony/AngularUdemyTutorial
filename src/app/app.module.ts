@@ -6,14 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
-import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+// import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    TwoWayBindingComponent
+    // TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,

@@ -8,5 +8,4 @@ import {Component, Input, SimpleChanges} from '@angular/core';
 export class TwoWayBindingComponent {
   enableButton: boolean = false;
   @Input() username: string = '';
-  
 }
